@@ -30,7 +30,7 @@ def monopoly_with_third_tier
 	{
 		:pieces => 4,
 		:names => {
-			:reading_railroad => {},
+			:reading_railroad => {},								#sets the 1st key of the :names hash to a symbol, :reading_railroad, whose value is an empty hash
 			:pennsylvania_railroad => {},
 			:b_and_o_railroad => {},
 			:shortline => {}
